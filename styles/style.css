@@ -5,5 +5,23 @@
 }
 
 body {
-  background-color: #3a4564;
+  background-color: #162a61;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: #ad4ed3;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.navigation.active {
+  width: 180px;
+  height: 180px;
 }/*# sourceMappingURL=style.css.map */
